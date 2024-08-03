@@ -38,7 +38,16 @@ A property booking application built with React. Users can browse property listi
 1. **Clone the repository:**
     
     git clone https://github.com/your-username/property-booking-app.git
-    cd property-booking-app
+     
+    git config --global user.email  "ajaydevra1999@gmai.com"
+    git config --global user.name "ajaydevra"
+    git init
+    git remote add origin https://github.com/ajaydevra/-totality-frontend-challenge-
+    git add -A
+    git commit -m "solution"
+    git branch -M main
+    git push -u origin main
+
 
 
 2. **Install dependencies:**
@@ -52,6 +61,9 @@ A property booking application built with React. Users can browse property listi
     
 
 4. Open your browser and navigate to `http://localhost:3000` to see the application in action.
+
+Demo
+## Link : https://totality-frontend-challenge-five-inky.vercel.app/
 
 ## Usage
 
