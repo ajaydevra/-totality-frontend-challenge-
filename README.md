@@ -1,70 +1,93 @@
 # Getting Started with Create React App
+# Property Booking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A property booking application built with React. Users can browse property listings, filter properties based on various criteria, add properties to a cart, and proceed to checkout.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Create React App
+- CSS for styling
+- JSON for static data
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Browse property listings with images, descriptions, and prices.
+- Filter properties based on location, price range, number of bedrooms, and amenities.
+- Add properties to a cart and view the cart.
+- Proceed to checkout with a form to enter booking details and payment information.
+- Responsive design for mobile and desktop.
 
-### `npm run build`
+## Setup and Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js and npm installed. You can download them from [here](https://nodejs.org/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation Steps
 
-### `npm run eject`
+1. **Clone the repository:**
+    
+    git clone https://github.com/your-username/property-booking-app.git
+    cd property-booking-app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies:**
+    
+    npm install
+    
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Run the application:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    npm start
+    
 
-## Learn More
+4. Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Browsing Properties
 
-### Code Splitting
+- The homepage displays a list of available properties.
+- Use the filter options to narrow down the listings based on your criteria.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Adding to Cart
 
-### Analyzing the Bundle Size
+- Click on the "Add to Cart" button on any property listing to add it to your cart.
+- View your cart by clicking on the cart icon/button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Checkout
 
-### Making a Progressive Web App
+- Click on "Proceed to Checkout" from the cart to go to the checkout form.
+- Fill out your booking details and payment information.
+- Submit the form to confirm your booking.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Folder Structure
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+property-booking-app/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Property.js
+│   │   ├── Filter.js
+│   │   ├── Cart.js
+│   │   └── Checkout.js
+│   ├── data/
+│   │   └── properties.json
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+├── README.md
+└── ...

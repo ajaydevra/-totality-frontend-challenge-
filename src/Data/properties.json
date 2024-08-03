@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Geeta palace",
+      "description": "A small, Home with a beautiful garden.",
+      "price": "₹ 4457 - 20 K",
+      "image": "https://ruemag.com/wp-content/uploads/2022/08/08-16-22_Home-Tour_Kelly-Martin-Interiors_6.jpg"
+    },
+    {
+        "id": 2,
+        "name": "S Reddy Villa",
+        "description": " Kerala model 3 bedroom villa in 2088 Square feet (194 Square Meter) (232 Square yards). Designed by Tenth designers, Alappuzha, Kerala",
+      "price": "₹ 1 Cr - 2 Cr",
+        "image": "https://i.pinimg.com/originals/f5/79/50/f579505175401bdc964b5f236a5560e6.jpg"
+      },
+
+      
+    {
+      "id": 3,
+      "name": "Rajlaxmi Apartments",
+      "description": "Rajlaxmi Apartments Rajkot Gujarat India, 2 BHK Residential Apartments ....",
+      "price": "₹ 1Cr - 3Cr",
+      "image": "https://th.bing.com/th/id/R.1a7e585cb0c007e63fa64b3558771fbb?rik=MfJIXQN1sre5jw&riu=http%3a%2f%2fdynamic.realestateindia.com%2fproj_images%2fproject1363%2fproj_img-1363_1.jpg&ehk=1lreZ%2fit5PQ%2firsrM04TGFOREUfAGJ4cZY6jFtN%2b33Q%3d&risl=&pid=ImgRaw&r=0"
+    },
+
+    {
+      "id": 4,
+      "name": "M Sai Apartment",
+      "description": "A modern apartment located in the city center.",
+      "price": "₹ 85.59 L - 2.19 Cr",
+      "image": "https://i.pinimg.com/474x/5c/95/34/5c9534441e958e843e5594a91f656c79.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Double storied modern south Indian home",
+        "description": " 2180 Square feet (202 square meter) (242 square yards) modern . 3 bedroom house elevation. Designed by Sameer Visuals, Tamilnadu, India.",
+        "price": "₹ 1.5Cr - 5Cr",
+        "image": "https://th.bing.com/th/id/R.417d0c36ebf59d6d0342813b2501b9c0?rik=SUGso4mSGbb4yg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-xZmNxmYWtTA%2fUuCokxf6ctI%2fAAAAAAAAjPI%2fERHNBG08wnU%2fs1600%2fdouble-storied-tamilnadu.jpg&ehk=TOhGeeOOksEAl3YD7DLLUPN5gUq8ufNPeqTvdSiAp80%3d&risl=&pid=ImgRaw&r=0"
+      },
+  
+    {
+      "id": 8,
+      "name": "Spacious Villa",
+      "description": "A spacious villa with a private pool and garden.",
+      "price": "₹ 1 Cr - 5 Cr",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-cc0c868051977c63d4cb9204ffc36c6d-lq"
+    }
+
+   
+  ]
+  

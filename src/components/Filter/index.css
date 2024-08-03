@@ -1,0 +1,32 @@
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter label {
+    font-weight: bold;
+  }
+  
+  .filter select,
+  .filter input[type="checkbox"] {
+    margin-top: 5px;
+    
+  }
+  
+  .filter-group{
+    margin: 5px;
+    padding: 20px;
+    height: 25px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
